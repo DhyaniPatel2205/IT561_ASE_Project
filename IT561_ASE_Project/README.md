@@ -20,3 +20,6 @@ data_sample (folder)
 Step 2: Create Virtual Environment (steps given for Windows)
 - python -m venv *name_of_virtual_environment*
 - *name_of_virtual_environment*/Scripts/avtivate
+
+Step 3: Install Requirements
+- python -m pip install -r req.txt
