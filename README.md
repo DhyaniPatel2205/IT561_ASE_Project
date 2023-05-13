@@ -19,12 +19,14 @@ data_sample (folder)
 
 Step 2: Create Virtual Environment (steps given for Windows)
 - python -m venv *name_of_virtual_environment*
-- *name_of_virtual_environment*/Scripts/avtivate
+- *name_of_virtual_environment*/Scripts/avtivate  
+Note: Use *deactivate* to deactivate the virtual environment
 
 Step 3: Install Requirements
 - python -m pip install -r req.txt
 
 Step 4: Edit Files
+- cd source_code
 - Change 2 paths in *bleu.py*  
 &nbsp;&nbsp;&nbsp;&nbsp;- bleu("/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/ground_truth/", "/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/summary/", smooth=True)
 - Change all the paths and batch size (as per need) in *configs.py*
@@ -52,3 +54,17 @@ Step 4: Edit Files
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_debugging"] = False  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_predicting"] = True  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["model_selection"] = False  
+
+Step 6: Run Code
+(1) Training
+- Initially: options["is_debugging"] = False, options["is_predicting"] = False, options["model_selection"] = False
+- python data_prepare.py
+- python3 main.py  
+(2) Tuning
+- Modify: Initially: options["is_debugging"] = False, options["is_predicting"] = True, options["model_selection"] = True
+- bash tuning.sh  
+(3) Testing
+- Modify: options["is_debugging"] = False, options["is_predicting"] = True, options["model_selection"] = False
+- python main.py *your-best-model-name* (say cnndm.s2s.gpu4.epoch7.1)
+- cd so/result
+- run ROUGE myROUGE_Config.xml C
