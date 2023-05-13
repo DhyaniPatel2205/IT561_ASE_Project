@@ -22,5 +22,33 @@ Step 2: Create Virtual Environment (steps given for Windows)
 - *name_of_virtual_environment*/Scripts/avtivate
 
 Step 3: Install Requirements
-- cd 
 - python -m pip install -r req.txt
+
+Step 4: Edit Files
+- Change 2 paths in *bleu.py*
+-- bleu("/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/ground_truth/", "/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/summary/", smooth=True)
+- Change all the paths and batch size (as per need) in *configs.py*
+- Change 4 data paths in *data_prepare.py*
+-- *src_path* (train)
+-- *tgt_path* (train)
+-- *src_path* (test)
+-- *tgt_path* (test)  
+*Note: You can also uncomment data validation part*
+- Change 4 paths in *evaluation.py*
+-- open file path in *write_review* function
+-- *hypo_path* in *main* function
+-- *ref_path* in *main* function
+-- *eval_path* in *main* function
+- Change True/False and epochs (as per need) in main.py
+-- For training:
+--- options["is_debugging"] = False
+--- options["is_predicting"] = False
+--- options["model_selection"] = False
+-- For testing:
+--- options["is_debugging"] = False
+--- options["is_predicting"] = True
+--- options["model_selection"] = True
+-- For testing:
+--- options["is_debugging"] = False
+--- options["is_predicting"] = True
+--- options["model_selection"] = False
