@@ -2,7 +2,7 @@
 # Team Members: Dhwani Upadhyay (202211045) and Dhyani Patel (202211056)
 
 Step 1:
-- Download the train and test data from .
+- Download the train and test data from "https://drive.google.com/drive/folders/1RmdCW2pRTpfGvDf8DmvYfz88exXtX5sP?usp=share_link"
 - The file structure should look like:
 
 data_sample (folder)  
