@@ -28,7 +28,10 @@ Step 3: Install Requirements
 Step 4: Edit Files
 - cd source_code
 - Change 2 paths in *bleu.py*  
-&nbsp;&nbsp;&nbsp;&nbsp;- bleu("/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/ground_truth/", "/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/summary/", smooth=True)
+&nbsp;&nbsp;&nbsp;&nbsp; bleu(  
+    "/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/ground_truth/",  
+    "/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/summary/",  
+    smooth=True)
 - Change all the paths and batch size (as per need) in *configs.py*
 - Change 4 data paths in *data_prepare.py*  
 &nbsp;&nbsp;&nbsp;&nbsp;- *src_path* (train)  
