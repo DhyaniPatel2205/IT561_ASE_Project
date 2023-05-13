@@ -22,4 +22,5 @@ Step 2: Create Virtual Environment (steps given for Windows)
 - *name_of_virtual_environment*/Scripts/avtivate
 
 Step 3: Install Requirements
+- cd 
 - python -m pip install -r req.txt
