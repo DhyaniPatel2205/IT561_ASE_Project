@@ -56,15 +56,15 @@ Step 4: Edit Files
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["model_selection"] = False  
 
 Step 6: Run Code  
-(1) Training
-- Initially: options["is_debugging"] = False, options["is_predicting"] = False, options["model_selection"] = False
-- python data_prepare.py
-- python3 main.py    
-(2) Tuning
-- Modify: Initially: options["is_debugging"] = False, options["is_predicting"] = True, options["model_selection"] = True
-- bash tuning.sh    
-(3) Testing
-- Modify: options["is_debugging"] = False, options["is_predicting"] = True, options["model_selection"] = False
-- python main.py *your-best-model-name* (say cnndm.s2s.gpu4.epoch7.1)
-- cd so/result
-- run ROUGE myROUGE_Config.xml C
+- Training
+&nbsp;&nbsp;&nbsp;&nbsp;- Initially: options["is_debugging"] = False, options["is_predicting"] = False, options["model_selection"] = False
+&nbsp;&nbsp;&nbsp;&nbsp;- python data_prepare.py
+&nbsp;&nbsp;&nbsp;&nbsp;- python main.py    
+- Tuning
+&nbsp;&nbsp;&nbsp;&nbsp;- Modify: Initially: options["is_debugging"] = False, options["is_predicting"] = True, options["model_selection"] = True
+&nbsp;&nbsp;&nbsp;&nbsp;- bash tuning.sh    
+- Testing
+&nbsp;&nbsp;&nbsp;&nbsp;- Modify: options["is_debugging"] = False, options["is_predicting"] = True, options["model_selection"] = False
+&nbsp;&nbsp;&nbsp;&nbsp;- python main.py *your-best-model-name* (say cnndm.s2s.gpu4.epoch7.1)
+&nbsp;&nbsp;&nbsp;&nbsp;- cd so/result
+&nbsp;&nbsp;&nbsp;&nbsp;- run ROUGE myROUGE_Config.xml C
