@@ -6,15 +6,15 @@ Step 1:
 - The file structure should look like:
 
 data_sample (folder)  
-    ⤷ csharpdata (sub-folder 1)  
-        ⤷ all the 6 .txt files  
-    ⤷ javadata (sub-folder 2)  
-        ⤷ all the 6 .txt files  
-    ⤷ jsdata (sub-folder 3)  
-        ⤷ all the 6 .txt files  
-    ⤷ pydata (sub-folder 4)  
-        ⤷ all the 6 .txt files  
-    ⤷ sqldata (sub-folder 5)  
-        ⤷ all the 6 .txt files  
+&nbsp;&nbsp;&nbsp;&nbsp;⤷ csharpdata (sub-folder 1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ all the 6 .txt files  
+&nbsp;&nbsp;&nbsp;&nbsp;⤷ javadata (sub-folder 2)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ all the 6 .txt files  
+&nbsp;&nbsp;&nbsp;&nbsp;⤷ jsdata (sub-folder 3)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ all the 6 .txt files  
+&nbsp;&nbsp;&nbsp;&nbsp;⤷ pydata (sub-folder 4)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ all the 6 .txt files  
+&nbsp;&nbsp;&nbsp;&nbsp;⤷ sqldata (sub-folder 5)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⤷ all the 6 .txt files  
 
 Step 2:
