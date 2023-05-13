@@ -25,30 +25,30 @@ Step 3: Install Requirements
 - python -m pip install -r req.txt
 
 Step 4: Edit Files
-- Change 2 paths in *bleu.py*
+- Change 2 paths in *bleu.py*  
 &nbsp;&nbsp;&nbsp;&nbsp;- bleu("/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/ground_truth/", "/content/drive/MyDrive/dhyani_code2que_new/source_code/so/result/summary/", smooth=True)
 - Change all the paths and batch size (as per need) in *configs.py*
-- Change 4 data paths in *data_prepare.py*
-&nbsp;&nbsp;&nbsp;&nbsp;- *src_path* (train)
-&nbsp;&nbsp;&nbsp;&nbsp;- *tgt_path* (train)
-&nbsp;&nbsp;&nbsp;&nbsp;- *src_path* (test)
+- Change 4 data paths in *data_prepare.py*  
+&nbsp;&nbsp;&nbsp;&nbsp;- *src_path* (train)  
+&nbsp;&nbsp;&nbsp;&nbsp;- *tgt_path* (train)  
+&nbsp;&nbsp;&nbsp;&nbsp;- *src_path* (test)  
 &nbsp;&nbsp;&nbsp;&nbsp;- *tgt_path* (test)  
-*Note: You can also uncomment data validation part*
-- Change 4 paths in *evaluation.py*
-&nbsp;&nbsp;&nbsp;&nbsp;- open file path in *write_review* function
-&nbsp;&nbsp;&nbsp;&nbsp;- *hypo_path* in *main* function
-&nbsp;&nbsp;&nbsp;&nbsp;- *ref_path* in *main* function
-&nbsp;&nbsp;&nbsp;&nbsp;- *eval_path* in *main* function
-- Change True/False and epochs (as per need) in main.py
-&nbsp;&nbsp;&nbsp;&nbsp;- For training:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_debugging"] = False
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_predicting"] = False
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["model_selection"] = False
-&nbsp;&nbsp;&nbsp;&nbsp;- For testing:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_debugging"] = False
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_predicting"] = True
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["model_selection"] = True
-&nbsp;&nbsp;&nbsp;&nbsp;- For testing:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_debugging"] = False
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_predicting"] = True
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["model_selection"] = False
+*Note: You can also uncomment data validation part*  
+- Change 4 paths in *evaluation.py*  
+&nbsp;&nbsp;&nbsp;&nbsp;- open file path in *write_review* function  
+&nbsp;&nbsp;&nbsp;&nbsp;- *hypo_path* in *main* function  
+&nbsp;&nbsp;&nbsp;&nbsp;- *ref_path* in *main* function  
+&nbsp;&nbsp;&nbsp;&nbsp;- *eval_path* in *main* function  
+- Change True/False and epochs (as per need) in main.py  
+&nbsp;&nbsp;&nbsp;&nbsp;- For training:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_debugging"] = False  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_predicting"] = False  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["model_selection"] = False  
+&nbsp;&nbsp;&nbsp;&nbsp;- For testing:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_debugging"] = False  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_predicting"] = True  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["model_selection"] = True  
+&nbsp;&nbsp;&nbsp;&nbsp;- For testing:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_debugging"] = False  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["is_predicting"] = True  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- options["model_selection"] = False  
