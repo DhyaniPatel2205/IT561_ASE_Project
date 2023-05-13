@@ -1,0 +1,2526 @@
+USE COPY MECHANISM
+USE COVERAGE MECHANISM
+USE NLL as LOSS
+USE LEARNABLE W2V EMBEDDING
+USE BI-DIRECTIONAL RNN
+RNN TYPE: gru
+idx_gpu: 0
+norm_clip: 5
+dim_x: 100
+dim_y: 100
+len_x: 129
+len_y: 65
+num_x: 1
+num_y: 1
+hidden_size: 256
+batch_size: 32
+testing_batch_size: 100
+min_len_predict: 35
+max_len_predict: 120
+max_byte_predict: None
+testing_print_size: 500
+lr: 0.15
+beam_size: 4
+max_epoch: 30
+print_time: 5
+save_epoch: 10
+dict_size: 22978
+pad_token_idx: 0
+loading train set...
+num_files =  2963 , num_batches =  93
+compiling model ...
+start training model 
+max epoch: 30
+epoch:  0
+19 / 93 batches have been processed, average cost until now: cost = 94.09246504934211 , cost_c = 1.0 , time: 65.24989366531372
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 83.8837591472425 , cost_c = 1.0 , time: 119.77437973022461
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 78.23769191273472 , cost_c = 1.0 , time: 176.8983814716339
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 74.28844898625424 , cost_c = 1.0 , time: 233.3536581993103
+save model... 
+finished
+in this epoch, total average cost = 71.80561637878418 , cost_c = 1.0 , time: 280.6578028202057
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to set hyperlinks on textview on telegram bot in java ? <eos> 
+
+how to get the the the in java in in java <eos> <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to use a variable located in a 2d array in another method ? <eos> 
+
+how to get the i in in java java in in java in in <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how can i download and read the downloaded file from url by java <eos> 
+
+how to i the the java in java in in java in in <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to fix with array outofboundsexception ? <eos> 
+
+how to get the the in in <eos> 
+5 ----------------------------------------------------------------------------------------------------
+android - menu item not showing in action bar <eos> 
+
+how how the the the in in java in in 
+6 ----------------------------------------------------------------------------------------------------
+appium - how to set geo location on ios device ? <eos> 
+
+how how the to get the in in java in in <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to work with dependent fields in spring 3 . 0 ? <eos> 
+
+how to get the the in in java in in java in <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to show coordinates - markers on android app with google maps from xml file <eos> 
+
+how to get the the > in java <eos> in java in in java in in 
+9 ----------------------------------------------------------------------------------------------------
+what s the right signature for a custom matcher for an iterable ? <eos> 
+
+how how the the in in java . in in java in in <eos> 
+10 ----------------------------------------------------------------------------------------------------
+java rmi : how do run the little application with netbeans ? <eos> 
+
+how how the the to to the java in in java in <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to run spring rmi server ? <eos> 
+
+how to get the the in in <eos> 
+12 ----------------------------------------------------------------------------------------------------
+why can t an enum extend a class in java ? <eos> 
+
+how to i the the in in java in java <eos> <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how do i reverse an array recursively <eos> 
+
+how to i the the the in in 
+14 ----------------------------------------------------------------------------------------------------
+how to change a picture when a key is entered in android studio ? <eos> 
+
+how to get the to in in to ? ? ? java <eos> in <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to add custom text on the bottom of qr code image <eos> 
+
+how to get the the in the java in java in in in 
+16 ----------------------------------------------------------------------------------------------------
+what is the correct time complexity ? <eos> 
+
+how how the the the in in <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  1
+19 / 93 batches have been processed, average cost until now: cost = 58.68637888055099 , cost_c = 1.0 , time: 55.724783420562744
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 57.80296446147718 , cost_c = 1.0 , time: 113.2551441192627
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 57.09321299770422 , cost_c = 1.0 , time: 168.33919405937195
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 56.590458719353926 , cost_c = 1.0 , time: 223.86030077934265
+save model... 
+finished
+in this epoch, total average cost = 56.25853418267292 , cost_c = 1.0 , time: 270.4513864517212
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+why operator + inside functions does not modify * def made variables ? <eos> 
+
+how to a json a <eos> json ? <eos> <eos> <eos> <eos> <eos> <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to undraw an image ? <eos> 
+
+how to make a image <eos> <eos> 
+3 ----------------------------------------------------------------------------------------------------
+what is the best implementation of a state toggle in java ? <eos> 
+
+how i the a a <eos> a a <eos> <eos> java <eos> <eos> 
+4 ----------------------------------------------------------------------------------------------------
+what am i doing wrong when rotating the picture by 90 degrees <eos> 
+
+how is i make a from a <eos> image <eos> <eos> <eos> <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to retrieve onpeersavailable () list <eos> 
+
+how to make a a <eos> <eos> 
+6 ----------------------------------------------------------------------------------------------------
+explicit casting on objects with interface . what s the use of parentheses <eos> 
+
+how how <eos> a <eos> java <eos> java <eos> <eos> java <eos> java <eos> 
+7 ----------------------------------------------------------------------------------------------------
+why does my the listview position items wrongly ? <eos> 
+
+how to listview listview listview <eos> <eos> <eos> <eos> <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how do i reverse an array recursively <eos> 
+
+how to i make a a from <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to hide selection in jlist <eos> 
+
+how to make a a java <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to work with dependent fields in spring 3 . 0 ? <eos> 
+
+how to make a java using <eos> java <eos> <eos> <eos> <eos> <eos> 
+11 ----------------------------------------------------------------------------------------------------
+what s wrong with this json ? <eos> 
+
+how i the <eos> java ,- <eos> <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to obtain databse url etc without the heroku cli <eos> 
+
+how to make a a <eos> <eos> ? java <eos> <eos> 
+13 ----------------------------------------------------------------------------------------------------
+why is the button . settext () shows error <eos> 
+
+how to the calendar <eos> calendar <eos> <eos> <eos> <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to parse list < map > in android ? <eos> 
+
+how to make a from map <eos> <eos> java <eos> <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to replace two characters in a string with replace / regex ? <eos> 
+
+how to make a a in java char <eos> java <eos> java <eos> <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to invoke testng custom test listener with in jbehave <eos> 
+
+how to make a from a <eos> <eos> java java <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  2
+19 / 93 batches have been processed, average cost until now: cost = 53.701235720985814 , cost_c = 1.0 , time: 55.394312143325806
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 53.28251828645405 , cost_c = 1.0 , time: 110.99913048744202
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 52.93384565386856 , cost_c = 1.0 , time: 166.77976775169373
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 52.69762415634958 , cost_c = 1.0 , time: 224.72436141967773
+save model... 
+finished
+in this epoch, total average cost = 52.46121477044147 , cost_c = 1.0 , time: 272.3188621997833
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to compare two different list of list ? <eos> 
+
+how to read an element element in a <eos> <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to filter / order by pivoted value using jpa criteria api ? <eos> 
+
+how to read an join to join <eos> <eos> java <eos> <eos> <eos> <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to use java to connect to postgresql remotely <eos> 
+
+how to read string <eos> a to a in <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to be able to use . class from a getconstructor ()? - java <eos> 
+
+how to read an to a method method <eos> java method <eos> <eos> java <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to make the object creation dynamic , means according to user choice <eos> 
+
+how to read a list in in <eos> <eos> <eos> ? a <eos> <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to remove headers and footers from pdf file using itext in java <eos> 
+
+how to read an in pdf in java <eos> <eos> java <eos> java <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to register attribute renderer in apache tiles ? <eos> 
+
+how to read an in in java <eos> <eos> <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how can i see the previous records ? <eos> 
+
+how to i read an string string <eos> <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to run this key listener in background in java <eos> 
+
+how to read a method in <eos> java <eos> java <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how do i make a selected combobox value display different text ? <eos> 
+
+how to i read an case in <eos> to ? ? <eos> <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to implement serializable ? <eos> 
+
+how to read an in <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to create a safe generic array object in java ? <eos> 
+
+how to read a array in array <eos> <eos> java <eos> <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how can i exclude annotated definition from build in java ? <eos> 
+
+how to i read an in in java <eos> java <eos> <eos> 
+14 ----------------------------------------------------------------------------------------------------
+why doesn t eclipse use the diamond operator in a method parameter <eos> 
+
+how is i i to string string <eos> <eos> java string <eos> <eos> 
+15 ----------------------------------------------------------------------------------------------------
+what is the life cycle of entitymanagerfactory in application managed application ? <eos> 
+
+how is the entitymanager in in a <eos> java <eos> <eos> <eos> <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how can i make jradiobutton transparent in particular case ? <eos> 
+
+how to i read an in in java <eos> <eos> <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  3
+19 / 93 batches have been processed, average cost until now: cost = 49.87159488075658 , cost_c = 1.0 , time: 54.23388862609863
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 50.024569059673105 , cost_c = 1.0 , time: 111.56562352180481
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 50.46878078527618 , cost_c = 1.0 , time: 170.05103254318237
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 50.16786525123998 , cost_c = 1.0 , time: 225.7353711128235
+save model... 
+finished
+in this epoch, total average cost = 50.16965011928392 , cost_c = 1.0 , time: 272.2462923526764
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to check if a generated zip file is corrupted ? <eos> 
+
+how to get if a byte in in in in ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+java second frame not showing <eos> 
+
+how how how - showing and 
+3 ----------------------------------------------------------------------------------------------------
+how can i add jlabel with background image in loop <eos> 
+
+how to i get a in java in in java ? 
+4 ----------------------------------------------------------------------------------------------------
+how to make program keep track of min and max in java <eos> 
+
+how to get a in in in a ? java ? java ? 
+5 ----------------------------------------------------------------------------------------------------
+what s wrong in my bfs shortest path implementation in java <eos> 
+
+how is the in java java ? ? ? ? java ? 
+6 ----------------------------------------------------------------------------------------------------
+how to add request scope to a rest resource in dropwizard <eos> 
+
+how to get a in in a app java in java ? 
+7 ----------------------------------------------------------------------------------------------------
+how to tackle the codingbat string - 2 onetwo challenge ? <eos> 
+
+how to get a char in in java <eos> ? ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to sort an array of arrays by date ? <eos> 
+
+how to get a sort in a in java ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to populate a 2d array in java using user input ? <eos> 
+
+how to get a array array in java ? java ? ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+java getrequesetheader ( set - cookie ) get null why ? <eos> 
+
+how how - how - how - in not in does <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to set year limit in datepickerdialog in android ? <eos> 
+
+how to get datepickerdialog datepickerdialog in java ? java <eos> <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to make bean programatically in spring boot <eos> 
+
+how to get a in in java <eos> ? 
+13 ----------------------------------------------------------------------------------------------------
+how to load a map with google map api ? <eos> 
+
+how to get a google in java arraylist in ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+ontouchlistener is not working , how to fix it ? <eos> 
+
+how - not showing in how to get a in <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to properly generate a form action for a post request ? <eos> 
+
+how to get a a form in in form form ? ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to set access - control - allow - origin when using restcontroller ? <eos> 
+
+how to get a a annotation in java in java ? i java ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  4
+19 / 93 batches have been processed, average cost until now: cost = 47.491708855879935 , cost_c = 1.0 , time: 55.474607706069946
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 48.01140373631527 , cost_c = 1.0 , time: 111.94216990470886
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 48.18648167660362 , cost_c = 1.0 , time: 168.3220715522766
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 48.41074823078356 , cost_c = 1.0 , time: 237.5677592754364
+save model... 
+finished
+in this epoch, total average cost = 48.437290855076 , cost_c = 1.0 , time: 285.6867928504944
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+jcodemodel - how to chain invoke methods <eos> 
+
+how - how to get the method in 
+2 ----------------------------------------------------------------------------------------------------
+how to use notifydatasetchanged () with a viewpager which contains a fragment with a listview <eos> 
+
+how to get gson of in the gson <eos> is a gson <eos> the gson <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to setup desired coordinates in graphics2d <eos> 
+
+how to get the java in java <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to read json to a list of generic objects in java ? <eos> 
+
+how to get a file a mapper of a file <eos> java <eos> <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to use polymorphism and generic class hierarchies with jaxb <eos> 
+
+how to get the method interface file in ? the <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how can i add jlabel with background image in loop <eos> 
+
+how to i write a from the in <eos> java <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to show servlet run time in ie debug console ? <eos> 
+
+how to get the in a in java <eos> <eos> <eos> <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to solve encoding problems when using strange characters of titles in jsf and primefaces <eos> 
+
+how to get the in in the java ajax <eos> the <eos> java <eos> loop <eos> 
+9 ----------------------------------------------------------------------------------------------------
+why does spring data rest include duplicate links ? <eos> 
+
+how does the how of curl curl method <eos> <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to count no . of series added in line chart using jfreechart ? <eos> 
+
+how to get the a lineandshaperenderer the method in java <eos> <eos> java <eos> <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how do i add and display a jlabel at runtime ? <eos> 
+
+how to i write a swing the swing in the <eos> <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to use ivy to get artifacts other than jars ? <eos> 
+
+how to get ivy to ivy the ivy ivy ivy <eos> <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to check if one file is inside another ? <eos> 
+
+how to get if the method in the a file <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to find string in list < textview > android <eos> 
+
+how to get the to java of textview ? <eos> <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to suppress error logging in the unit tests <eos> 
+
+how to get the in in java workloadserviceimpl method <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to prevent a disabled jmenuitem from hiding the menu when being clicked ? <eos> 
+
+how to get the setenabled file in a ? jmenuitem <eos> the ? <eos> <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  5
+19 / 93 batches have been processed, average cost until now: cost = 45.4941396211323 , cost_c = 1.0 , time: 54.73497748374939
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 46.18543976231625 , cost_c = 1.0 , time: 113.02159857749939
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 46.276020518520426 , cost_c = 1.0 , time: 169.71065950393677
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 46.72885352686832 , cost_c = 1.0 , time: 226.4763560295105
+save model... 
+finished
+in this epoch, total average cost = 46.72959962098495 , cost_c = 1.0 , time: 275.79676246643066
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+what is wrong with xmlhttprequest request ? <eos> 
+
+how is the with the ? ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+android gcm registration failed . why ? <eos> 
+
+how : : not ? permission is <eos> 
+3 ----------------------------------------------------------------------------------------------------
+arraylist , how can i compare and etc within ? ( java ) <eos> 
+
+how : how to i get a cell in a <eos> ? ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to give selected dates result back in java ? <eos> 
+
+how to get a calendar in in in java ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to key off a parameter to a stubbed method using mockito <eos> 
+
+how to get a a search to a search ? ? java ? 
+6 ----------------------------------------------------------------------------------------------------
+joptionpane . showmessagedialog () shows but without any message ? <eos> 
+
+how : how : : not not a ? ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how do i draw an arrow in java ? <eos> 
+
+how to i get a object in java ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+why is this arrayindexoutofbounds exception occurring ? <eos> 
+
+how is the code ? ? ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to get the test result status from testng / selenium in aftermethod ? <eos> 
+
+how to get the method method from ? a ? java ? java ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to use jmslistener for topic in spring 4 <eos> 
+
+how to get jms in a in java boot <eos> 
+11 ----------------------------------------------------------------------------------------------------
+java nio nonblocking : how to refuse incoming connections ? <eos> 
+
+how : : : how to get a in ? <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how can i make a drop down hidden menu <eos> 
+
+how to i get a android method in in ? 
+13 ----------------------------------------------------------------------------------------------------
+why is float . min_value in java a positive value ? <eos> 
+
+how is the to how ? java ? java ? ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how do i respawn threads if they die <eos> 
+
+how to i get a in a in ? 
+15 ----------------------------------------------------------------------------------------------------
+how can i draw several rectangles in a row programmatically ? <eos> 
+
+how to i get a in in java bitmap ? ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how do i fix this dereference of nullable error ? <eos> 
+
+how to i get this code in a ? ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  6
+19 / 93 batches have been processed, average cost until now: cost = 45.10882588436729 , cost_c = 1.0 , time: 55.06035017967224
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 45.07197299756502 , cost_c = 1.0 , time: 111.31876015663147
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 45.44135859974644 , cost_c = 1.0 , time: 166.93974804878235
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 45.18856314608925 , cost_c = 1.0 , time: 224.33588099479675
+save model... 
+finished
+in this epoch, total average cost = 45.186587001966394 , cost_c = 1.0 , time: 271.53741788864136
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to get the height of the entered text in a jtextpane ? <eos> 
+
+how to use the jtextpane of the jtextpane in file java jtextpane ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how can i reduce this scripting code <eos> 
+
+how to i use the code method ? 
+3 ----------------------------------------------------------------------------------------------------
+how to make a user enter 5 marks into a 2d array ? <eos> 
+
+how to use a string in in in in a string array ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+what does abs :% s regex means ? <eos> 
+
+how is the the in list ? ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+why isn t anything showing up in my jframe ? <eos> 
+
+how can t work work the <eos> java java <eos> <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to run this key listener in background in java <eos> 
+
+how to use a file in in java ? java <eos> 
+7 ----------------------------------------------------------------------------------------------------
+why is this spring aop pointcut not triggered ? <eos> 
+
+how can the aop aop aop aop work ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to get a pop up while trying to open a pdf <eos> 
+
+how to use the string of in using to a a string file 
+9 ----------------------------------------------------------------------------------------------------
+how do i convert a bytearray into int via udp datagram <eos> 
+
+how to i use a datagrampacket in a in java ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to solve namevaluepair cannot be a string in android <eos> 
+
+how to use the the a the connect in java <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to tackle the codingbat string - 2 onetwo challenge ? <eos> 
+
+how to use the onetwo onetwo in onetwo <eos> ? ? <eos> 
+12 ----------------------------------------------------------------------------------------------------
+jsp error 404 where is my mistake <eos> 
+
+how : : : to the code <eos> 
+13 ----------------------------------------------------------------------------------------------------
+java hibernate onetoone : which side should be the owner <eos> 
+
+how : : : how is of be the entity ? 
+14 ----------------------------------------------------------------------------------------------------
+how to print an dynamic array with normal for loop <eos> 
+
+how to use the arraylist arraylist in the ? a ? 
+15 ----------------------------------------------------------------------------------------------------
+how can i split a methods functionality using an enum as condition ? <eos> 
+
+how to i use a enum in in enum array ? a ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to validate a list each time elements are added / removed ? <eos> 
+
+how to use a tile of tile in in the in tile ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  7
+19 / 93 batches have been processed, average cost until now: cost = 43.54930114746094 , cost_c = 1.0 , time: 54.21993565559387
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 43.55605878328022 , cost_c = 1.0 , time: 113.27968645095825
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 43.26033729419374 , cost_c = 1.0 , time: 169.04302310943604
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 43.522606899863796 , cost_c = 1.0 , time: 224.63864159584045
+save model... 
+finished
+in this epoch, total average cost = 43.70975581459377 , cost_c = 1.0 , time: 274.0321202278137
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to return a generic map from a method in java <eos> 
+
+how to create a interface interface in a interface ? java <eos> 
+2 ----------------------------------------------------------------------------------------------------
+spring boot - how to specify java path in process builder <eos> 
+
+how mvc / how to create a <eos> in java using <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to convert base64 string into public key ? <eos> 
+
+how to create a class in a key <eos> <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to perform unless all criteria are met alfresco rule in java <eos> 
+
+how to create alfresco alfresco the in alfresco <eos> ? ? java <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how can i use a background task within an adapter ? <eos> 
+
+how to i create a imageview imageview ? a imageview ? <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to get a service to change focus to your background activity ? <eos> 
+
+how to create the window in a the <eos> a java ? <eos> <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how show only a view of an interface in java <eos> 
+
+how to the a interface in a object ? java <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to add components to a subclass of a subclass of jframe <eos> 
+
+how to create a to a button in a button ? a <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to delete firebase data after n days <eos> 
+
+how to create a calendar from a java <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how can i merge 2 arrays ? <eos> 
+
+how to i make a . in <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to write a recursive algorithm with axis ? <eos> 
+
+how to create a points class in java <eos> <eos> 
+12 ----------------------------------------------------------------------------------------------------
+why am i getting a nullpointerexception in the following code ? <eos> 
+
+how am i getting a nullpointerexception in a nullpointerexception nullpointerexception ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to get proxy settings from system settings in java <eos> 
+
+how to proxy proxy proxy proxy proxy <eos> <eos> proxy <eos> 
+14 ----------------------------------------------------------------------------------------------------
+why is java faster if it repeats the same code ? <eos> 
+
+how is the . in i is a same value <eos> <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how does java allow the instantiation of inner static class ? <eos> 
+
+how to this . a class of a class class <eos> <eos> 
+16 ----------------------------------------------------------------------------------------------------
+can any one please explain how to build rpm for fedora10 linux <eos> 
+
+how i a version how when to avoid a <eos> a ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  8
+19 / 93 batches have been processed, average cost until now: cost = 41.911582143683184 , cost_c = 1.0 , time: 55.16486692428589
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 41.64006865651984 , cost_c = 1.0 , time: 110.94563627243042
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 41.97329256827371 , cost_c = 1.0 , time: 166.61686611175537
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 42.06563623327958 , cost_c = 1.0 , time: 223.64642214775085
+save model... 
+finished
+in this epoch, total average cost = 42.18290424346924 , cost_c = 1.0 , time: 271.74053406715393
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+jackson : deserializing xml attribute where the jsonproperty doesn t match the bean name <eos> 
+
+how how how . file in to numbers of t i the same ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how get *. txt from assets subfolder <eos> 
+
+how to the a file a using <eos> 
+3 ----------------------------------------------------------------------------------------------------
+android in app purchase consumable ? non consumable ? how to check users already paid <eos> 
+
+how : java showing not ? <eos> - ? <eos> to get if from ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+what is wrong with xmlhttprequest request ? <eos> 
+
+how is the with the method in <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to return a new arraylist ? <eos> 
+
+how to get a arraylist arraylist of <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to find first node of linked list without knowing the head node <eos> 
+
+how to get the node of a method ? using the same <eos> <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how do i instigate a re - try for loop <eos> 
+
+how to i get a string - string to a ? 
+8 ----------------------------------------------------------------------------------------------------
+how to retrieve jsonobject from jsonarray request using flickr api ? <eos> 
+
+how to get a from a ? using java ? ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+listview not showing any items <eos> 
+
+how : showing on of <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to downcast a returned object ? <eos> 
+
+how to get a object from from <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to perform multiple updates in database through entity beans using hibernate refer to code <eos> 
+
+how to get batch page from a using a ? ? java <eos> ? start <eos> 
+12 ----------------------------------------------------------------------------------------------------
+why do i ever need to use . close () on resources <eos> 
+
+how is i get the to get a char of <eos> a <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how do i programmatically swap out a view control in android ? <eos> 
+
+how to i get get a of tablelayout of in tablelayout ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+what is this referes to in overriding equals method in java <eos> 
+
+how is the not to get a to and <eos> java ? 
+15 ----------------------------------------------------------------------------------------------------
+how to perform coreference resolution in java using stanford core nlp ? <eos> 
+
+how to get map a from a ? java ? ? ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+why does my xpath expression in java return too many children ? <eos> 
+
+how does xpath xpath not not java ? <eos> ? xpath ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  9
+19 / 93 batches have been processed, average cost until now: cost = 40.17843226382607 , cost_c = 1.0 , time: 54.97926211357117
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 40.147517455251595 , cost_c = 1.0 , time: 111.52318692207336
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 40.25645486932052 , cost_c = 1.0 , time: 168.57377552986145
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 40.515008775811445 , cost_c = 1.0 , time: 224.3347351551056
+save model... 
+finished
+in this epoch, total average cost = 40.65887401414954 , cost_c = 1.0 , time: 273.3780016899109
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+why do i get a nosuchauthoritycodeexception when creating a coordinatereferencesystem ? <eos> 
+
+how does i use the coordinatereferencesystem in using a coordinatereferencesystem ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how can i cache custom views in my listview adapter ? <eos> 
+
+how to i use a posts in java web ? ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to launch mysqldump . exe in java independently on mysqldump . exe location ? <eos> 
+
+how to get mysqldump . mysqldump in mysqldump ? ) mysqldump <eos> mysqldump ? ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to show servlet run time in ie debug console ? <eos> 
+
+how to get console console using using java using console ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to return date from a datepickerdialog to mainactivity <eos> 
+
+how to get datepickerdialog of datepickerdialog datepickerdialog to a <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to store and display scores at the end of a quiz <eos> 
+
+how to get a retrieve a from the same of the string <eos> 
+7 ----------------------------------------------------------------------------------------------------
+why is my server not responding to tcp packets <eos> 
+
+how does the socket not work ? socket socket <eos> 
+8 ----------------------------------------------------------------------------------------------------
+android locationmanager null pointer exception ? ( how to pass the context ?) <eos> 
+
+how : : . of <eos> <eos> how to avoid object locationlistener of <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to find difference in dates <eos> 
+
+how to get the between java <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to fix actual and formal argument lists differ in length using methods ? <eos> 
+
+how to get argument formal argument differ of in from java ? argument ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+android gcm registration failed . why ? <eos> 
+
+how : : showing , permission does <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to create socket and serversocket in localhost ? <eos> 
+
+how to get a to socket in java ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+what is the recommended way to customize the logoutfilter in spring ? <eos> 
+
+how is the logoutfilter logoutfilter to get logoutfilter logoutfilter in java mvc <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how do i use an int in an if - then statement in android <eos> 
+
+how to i use a object to java array using android it ? java <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to uniquely name an object <eos> 
+
+how to get a from object in 
+16 ----------------------------------------------------------------------------------------------------
+how can i cancel my countdowntimer outside of my method ? <eos> 
+
+how to i use a cancel using countdowntimer cancel app ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  10
+19 / 93 batches have been processed, average cost until now: cost = 38.54143223009611 , cost_c = 1.0 , time: 55.1002357006073
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 38.855423274793125 , cost_c = 1.0 , time: 109.53152012825012
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 39.00679451122618 , cost_c = 1.0 , time: 163.39001488685608
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 39.084919578150696 , cost_c = 1.0 , time: 220.33830451965332
+save model... 
+finished
+in this epoch, total average cost = 39.159480551014774 , cost_c = 1.0 , time: 267.1382620334625
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to fire propertychange event from thread ? <eos> 
+
+how to get propertychange thread in a ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how can i traverse this graph taking into regard the weight of the edges ? <eos> 
+
+how to i get a code ? ? a a edges of a edges ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+having trouble with skipexception , testng , what am i doing wrong ? <eos> 
+
+how java with parameter , how / how is i have ) ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+spring boot - how to specify java path in process builder <eos> 
+
+how : - how to get the . to grails ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to find values stored in object in an array list in java <eos> 
+
+how to get the from in java using java array ? ? java <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to make my custom linked list to use generics ? <eos> 
+
+how to check a program node method in a a ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how does watcherthread invoke jvm monitoring routines ? <eos> 
+
+how to watcherthread work a to ? ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+getting stackoverflow error and why ? <eos> 
+
+how a array while how ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to parse an object from java to jsf , and reverse ? <eos> 
+
+how to get a image to a class a server using event ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to change a picture when a key is entered in android studio ? <eos> 
+
+how to get the edittext in using method is inside in java <eos> <eos> <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to perform load testing with selenium testng at a time by opening multiple windows <eos> 
+
+how to get a to in java webdriver with runtime string <eos> java it request ? 
+12 ----------------------------------------------------------------------------------------------------
+which option is better , when there are way to many records ? <eos> 
+
+how is is the to but i is an to start monthyearcount ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+where do i get resource id of fragment container ? <eos> 
+
+how is i get the equivalent in fragment ? ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to get the json of a response from a service <eos> 
+
+how to get the post object a ip in a ip <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to avoid interference of httpservletrequest . getreader and getparametervalues ? <eos> 
+
+how to get a of a . reader ? returns ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to ensure that it doesn t add zeroes before the numbers ? <eos> 
+
+how to get to is is t work a ? it same ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  11
+19 / 93 batches have been processed, average cost until now: cost = 37.134947525827506 , cost_c = 1.0 , time: 56.455416440963745
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 37.14588627062346 , cost_c = 1.0 , time: 114.19677209854126
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 37.495487213134766 , cost_c = 1.0 , time: 170.01585698127747
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 37.4675182041369 , cost_c = 1.0 , time: 224.95563387870789
+save model... 
+finished
+in this epoch, total average cost = 37.73247540515402 , cost_c = 1.0 , time: 274.1210217475891
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to remove null values from a 2d array ? <eos> 
+
+how to get a values from a arraylist array ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+parse date from string which includes t <eos> 
+
+how datetimeformatter in datetimeformatter , is t ? 
+3 ----------------------------------------------------------------------------------------------------
+why can methods be overridden but variables can t ? <eos> 
+
+how does t i this exception not t t ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how can i traverse this graph taking into regard the weight of the edges ? <eos> 
+
+how to i use a code ? ? a a edges of a edges ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to create a non fragment android app with eclipse ? <eos> 
+
+how to get a android - from <eos> in a s <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to fix audioinputstream output file getting distorted when put into executorservice ? <eos> 
+
+how to get executorservice executorservice in in a in using in a ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+explain why stackoverflow error raised in this program ..? <eos> 
+
+how how does . exception in java code ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how do i parse a json array into different objects using jackson on android ? <eos> 
+
+how to i use a reference object from a ? ? java - android <eos> <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to call restservice from local application with apache tomcat <eos> 
+
+how to get a with a page in java poi api 
+10 ----------------------------------------------------------------------------------------------------
+why this weird output with truncate and bigdecimal ? <eos> 
+
+how does java / of this () truncate ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to open . mdb from ftp location jackcess <eos> 
+
+how to get a ftpclient on a ftpclient on <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to deal with inheritance in pageobjects pattern of webdriver ? <eos> 
+
+how to get with a with android - ? a <eos> <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to solve encoding problems when using strange characters of titles in jsf and primefaces <eos> 
+
+how to get ajax on on using ajax encoding in a in android 2 java ? 
+14 ----------------------------------------------------------------------------------------------------
+how do i use if condition with a choice box ? <eos> 
+
+how to i use a one in a choice ( in <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to subdivide a list into multiple lists while processing in java stream ? <eos> 
+
+how to get a ] in a ] in using ? android <eos> ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+why does logstash take so long to start / load ? <eos> 
+
+how does logstash logstash () logstash ? logstash ? logstash ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  12
+19 / 93 batches have been processed, average cost until now: cost = 35.261139719109785 , cost_c = 1.0 , time: 54.27936768531799
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 35.51355161164936 , cost_c = 1.0 , time: 110.01103925704956
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 35.54536277369449 , cost_c = 1.0 , time: 166.29599046707153
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 35.981548710873255 , cost_c = 1.0 , time: 224.87823104858398
+save model... 
+finished
+in this epoch, total average cost = 36.140459848486856 , cost_c = 1.0 , time: 270.99918246269226
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to use bufferedimage to draw multiple curved lines on the jpanel ? <eos> 
+
+how to use a to use on times ? ? a same ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+apache kafka with avro , where in the message does the schema id go ? <eos> 
+
+how avro : avro schema which to java avro ? not avro ? from ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+why wont java let me have this else if statement ? <eos> 
+
+how does java program board the a board error statement is <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to extract code from annotation getter ? <eos> 
+
+how to use all from a s ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to edit a bitmap of the pixels in an image <eos> 
+
+how to use a bitmap to a bitmap in a bitmap <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to create a nested array inside an array in a json with java ? <eos> 
+
+how to use a java jsonproperty from a object ? java java ? java ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how can i see if a socket is already connected to my server ? <eos> 
+
+how to i use the a socket is running have to a program ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+jfreechart : how to get the individual items in a boxandwhiskerchart <eos> 
+
+how : how to create the map of from a map <eos> 
+9 ----------------------------------------------------------------------------------------------------
+show image when button is clicked <eos> 
+
+how progress from i is a in 
+10 ----------------------------------------------------------------------------------------------------
+how to use a save file dialog from a servlet ? <eos> 
+
+how to use csv filechooser to from from a filechooser ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to find difference in dates <eos> 
+
+how to use the between a <eos> 
+12 ----------------------------------------------------------------------------------------------------
+why can methods be overridden but variables can t ? <eos> 
+
+how does t i called exception not ? t ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how do parse the select - menu html ? using java <eos> 
+
+how to i a select of click from from <eos> java ? 
+14 ----------------------------------------------------------------------------------------------------
+how multithread works in web environment <eos> 
+
+how to a when a service ? 
+15 ----------------------------------------------------------------------------------------------------
+determine how many time a day occurs between two days in java <eos> 
+
+how how to an a localdate of ? a different <eos> java ? 
+16 ----------------------------------------------------------------------------------------------------
+trying to figure out why the split method is not printg out right <eos> 
+
+how to show which - it printed method of not working the the <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  13
+19 / 93 batches have been processed, average cost until now: cost = 33.57493862352873 , cost_c = 1.0 , time: 54.932453632354736
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 33.65967263673481 , cost_c = 1.0 , time: 112.27852034568787
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 34.24657825001499 , cost_c = 1.0 , time: 168.84092164039612
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 34.480652257015834 , cost_c = 1.0 , time: 225.33369159698486
+save model... 
+finished
+in this epoch, total average cost = 34.66961881388789 , cost_c = 1.0 , time: 276.3779299259186
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+printing int array contents after filling in input shows only 0 <eos> 
+
+how main array of of i in java <eos> 0 0 <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to add a method source to an existing java file with jdt ? <eos> 
+
+how to get a list of to a type list <eos> ? java ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to create two border <eos> 
+
+how to add a image <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to setup desired coordinates in graphics2d <eos> 
+
+how to get graphics2d in on java <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to send multiple checkbox values to firebase database when a button is clicked android <eos> 
+
+how to get a child to from a database in using button in clicked <eos> <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to execute a . java file on clicking a jbutton in jframe ? <eos> 
+
+how to get a java java file in the the java on java <eos> <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to set year limit in datepickerdialog in android ? <eos> 
+
+how to add datepickerdialog in of datepickerdialog to java <eos> <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how can i add jlabel with background image in loop <eos> 
+
+how to i make a from a in in java <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to call external java function in xslt file ? <eos> 
+
+how to get syntax error error to java file in <eos> 
+10 ----------------------------------------------------------------------------------------------------
+why this code doesn t work - debug current istruction pointer issue <eos> 
+
+how is java not t work ? memory one method ? in <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to use my trackpad for horizontal mousewheel scrolling in java swing <eos> 
+
+how to add jscrollpane jscrollpane in a jscrollpane ? in java <eos> <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how send message from validator to form in thymeleaf <eos> 
+
+how to a to validator to a in java <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how can a subclass of a subclass inherit methods from the first subclass superclass ? <eos> 
+
+how to i method of method method of from from a method method of ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how do i generate a random rdd in java spark <eos> 
+
+how to i get a random randomdatagenerator in java ? ? 
+15 ----------------------------------------------------------------------------------------------------
+java : how to ignore some sqlexception ? <eos> 
+
+how : how to create one sqlexception ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+android webview shows unexpected status code 407 <eos> 
+
+how : webview webview on code <eos> <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  14
+19 / 93 batches have been processed, average cost until now: cost = 32.287270094219004 , cost_c = 1.0 , time: 63.71040058135986
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 32.57257682398746 , cost_c = 1.0 , time: 118.94940710067749
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 32.65055659779331 , cost_c = 1.0 , time: 175.8460237979889
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 32.93337929876227 , cost_c = 1.0 , time: 235.4840121269226
+save model... 
+finished
+in this epoch, total average cost = 33.09464040009872 , cost_c = 1.0 , time: 282.27063941955566
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+eclipselink : adding where - clause using customizer <eos> 
+
+how : how how not why in java <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to map json data into any object in java ? <eos> 
+
+how to get a file ? different using <eos> java ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+show the details from database in jcombobox in gui <eos> 
+
+how progress number from list in java ? java ? 
+4 ----------------------------------------------------------------------------------------------------
+how to call method of a class with wildcard in java ? <eos> 
+
+how to get a in a service in a in java ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+java : excel / json - how to read json file and write to excel <eos> 
+
+how how how file hibernate , how to avoid the file ? write ? java <eos> 
+6 ----------------------------------------------------------------------------------------------------
+why can not get annotation from beanclass ? <eos> 
+
+how does t getting the s beanclass ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how can i hide a datepicker icon when its datetextfield is hidden ? <eos> 
+
+how to i add a datepicker in on i a is datepicker ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+why is an input line ignored ? <eos> 
+
+how am the error way to ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to get a message from a silent push notification with onesignal ? <eos> 
+
+how to get a notification from a notification notification file <eos> java ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to read pdf file from server using servlet ? <eos> 
+
+how to set a file from a using selenium ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how can i fetch string value from sentence ? <eos> 
+
+how to i fetch fetch from from fetch ? <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to prefetch image in gwt ? <eos> 
+
+how to add prefetch in prefetch 2 <eos> 
+13 ----------------------------------------------------------------------------------------------------
+serviceloader where type parm is itself generic <eos> 
+
+how serviceloader not should is not <eos> <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to pass additional classpath dependencies to testcompile phase in maven <eos> 
+
+how to run plugin file in in maven maven in maven ? 
+15 ----------------------------------------------------------------------------------------------------
+how to get the circumference , area and radius of a circle in java ? <eos> 
+
+how to add the circumference from over and an of a circumference in java <eos> <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to pass list in hql query where list is a value of a map <eos> 
+
+how to get a of query using on i in query query <eos> the query ? 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  15
+19 / 93 batches have been processed, average cost until now: cost = 30.55569959941663 , cost_c = 1.0 , time: 54.74393820762634
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 30.619564056396484 , cost_c = 1.0 , time: 113.00790739059448
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 31.119898879737185 , cost_c = 1.0 , time: 169.1715908050537
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 31.346413813139264 , cost_c = 1.0 , time: 226.8640706539154
+save model... 
+finished
+in this epoch, total average cost = 31.51126019851021 , cost_c = 1.0 , time: 274.48288464546204
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how can i replace each group individually using matcher ? <eos> 
+
+how to i print a output in using a ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+inner class have access to private final methods in base class but why ? <eos> 
+
+how - which not which a object ? ? java <eos> <eos> not ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to access getactivity () within fragment inside viewpager which is a fragment <eos> 
+
+how to create a () method fragment from another which is clicked fragment ? 
+4 ----------------------------------------------------------------------------------------------------
+error 404 : not found error showing jeresy restful service <eos> 
+
+how : : how showing for <eos> <eos> screen service <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to use ajax with jsp <eos> 
+
+how to use ajax with ajax <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to check file permissions in java ( os independently ) <eos> 
+
+how to get if in in java <eos> java ) ) <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how can i get rid of this error : error : unreported exception filenotfoundexception ; <eos> 
+
+how to i unreported error of error exception ? unreported ? unreported : ? ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to get all the rows from a table using hibernate efficiently ? <eos> 
+
+how to use the the hibernate from a hibernate ( table <eos> ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to sort arraylist consisting of pojo class in java <eos> 
+
+how to create a as in a class <eos> java ? 
+10 ----------------------------------------------------------------------------------------------------
+how to calla method only once in a controller <eos> 
+
+how to use method of objects in java list <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to convert this 2 columns data into a tree in java ? <eos> 
+
+how to convert a list in in into a list ? java ? <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to delete a particular paragraph in docx containing specific string using apache poi <eos> 
+
+how to create a stream file in java file text file ? java poi ? 
+13 ----------------------------------------------------------------------------------------------------
+how to customise web service response xml <eos> 
+
+how to configure web c7dc in from file 
+14 ----------------------------------------------------------------------------------------------------
+java - how to populate 2d array with nested while loops ? <eos> 
+
+how : how to get a array in different array loop ? <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to disable momentarily onclick event of imageview and button in android studio <eos> 
+
+how to use a onclick listener from a in in <eos> android <eos> <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how do i find the lowest score entered using for loops <eos> 
+
+how to i create the lowest lowest ? in java loop ? 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  16
+19 / 93 batches have been processed, average cost until now: cost = 28.491769790649414 , cost_c = 1.0 , time: 54.758991956710815
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 28.92333241512901 , cost_c = 1.0 , time: 110.54775810241699
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 29.25866454944276 , cost_c = 1.0 , time: 168.08622336387634
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 29.716056999407318 , cost_c = 1.0 , time: 223.91531133651733
+save model... 
+finished
+in this epoch, total average cost = 29.92416703182718 , cost_c = 1.0 , time: 270.49938583374023
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to access internal json object in spring rest request <eos> 
+
+how to get jsonobject jsonobject object into spring <eos> api <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to restart java method after termination <eos> 
+
+how to get method function in the <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how get *. txt from assets subfolder <eos> 
+
+how to values the from listview <eos> <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to encode to a 4 digits number or nummerical string in java ? <eos> 
+
+how to get to a string value of <eos> total string <eos> java <eos> <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to initialize input fields without writing if statements ? <eos> 
+
+how to get a array from excess enum it ? <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to write a list of files in java <eos> 
+
+how to get file file into file in android <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to translate this php code to java ? <eos> 
+
+how to get this accept in in use ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+processing : how to check if json objects are bound <eos> 
+
+how : how to get if a data in possible <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to create method that returns arraylist of given parameter in constructor ? <eos> 
+
+how to get a of is the from arraylist data <eos> android ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how does optimization of final references work in java ? <eos> 
+
+how to this of windows methods in in java ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to change one boolean based on values found in arraylist ? <eos> 
+
+how to get the integer in on a <eos> ? java <eos> <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to create threads from xml file using java <eos> 
+
+how to get a in java file <eos> java <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how can i draw several rectangles in a row programmatically ? <eos> 
+
+how to i get on on in a string <eos> ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to change button background colour without changing onclick / onpress colors <eos> 
+
+how to change image click to in a <eos> <eos> android ? <eos> 
+15 ----------------------------------------------------------------------------------------------------
+why does my xpath expression in java return too many children ? <eos> 
+
+how does xpath xpath expression i java <eos> <eos> many return ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to convert mat to list of points in java <eos> 
+
+how to convert mat to mat in mat in android <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  17
+19 / 93 batches have been processed, average cost until now: cost = 26.782221944708574 , cost_c = 1.0 , time: 55.15285325050354
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 27.41717333542673 , cost_c = 1.0 , time: 113.0976996421814
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 27.744375128495065 , cost_c = 1.0 , time: 168.95409750938416
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 27.999516135767887 , cost_c = 1.0 , time: 225.1555471420288
+save model... 
+finished
+in this epoch, total average cost = 28.278036905371625 , cost_c = 1.0 , time: 275.87405490875244
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how do i draw on a jpanel from multiple outside classes ? <eos> 
+
+how to i use a a jpanel on a word of ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+why optional continue saying that my list in empty ? <eos> 
+
+how is method do for returns method in java ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to resolve apache tiles defintion with spring controller <eos> 
+
+how to add apache tiles with with spring 4 <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to return calendar using this method <eos> 
+
+how to add a in calendar application ? 
+5 ----------------------------------------------------------------------------------------------------
+how do i write a generic foreach loop in java ? <eos> 
+
+how to i use a java if in in java ? <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to select an element inside div -> ul -> li in selenium <eos> 
+
+how to add the image inside a <eos> click -> click in java <eos> 
+7 ----------------------------------------------------------------------------------------------------
+why java code doesn t work when moved into a function ? <eos> 
+
+how is . doesn t work ? the as a string ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how do i use micronaut views to send back params and set local storage ? <eos> 
+
+how to i use location exception to a an a and click it page ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+what am i doing wrong do get this extra output ? <eos> 
+
+how is i doing wrong with ? ? code code ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+why does my xpath expression in java return too many children ? <eos> 
+
+how does java xpath expression i java - - browser return ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to get mainactivity . this in contentprovider class - in android <eos> 
+
+how to pass a to if contentprovider mainactivity class method java java ? 
+12 ----------------------------------------------------------------------------------------------------
+how to check whether a string contains the search items <eos> 
+
+how to get if string string contains a string in <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to update graphics quickly in a jpanel <eos> 
+
+how to use the classes in a custom ? 
+14 ----------------------------------------------------------------------------------------------------
+set . clear () and set . addall () vs assignment which is better ? <eos> 
+
+how . clear () if addall . addall () method . ? is not ? <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to unit test methods that use threads ? <eos> 
+
+how to executorservice test for from has the ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how can i specify that an object implements an interface in java ? <eos> 
+
+how to i use the the object s a object in java ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  18
+19 / 93 batches have been processed, average cost until now: cost = 25.133031945479544 , cost_c = 1.0 , time: 55.00899815559387
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 25.501786884508636 , cost_c = 1.0 , time: 110.89555191993713
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 25.974285828439815 , cost_c = 1.0 , time: 167.72801661491394
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 26.220621962296335 , cost_c = 1.0 , time: 223.97313594818115
+save model... 
+finished
+in this epoch, total average cost = 26.60158569916435 , cost_c = 1.0 , time: 271.5663797855377
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+compare two files and determine which lines are different <eos> 
+
+how two values in java which of are items <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to pass parameters to jasperreport with java to use later in sql query <eos> 
+
+how to get a to a with the <eos> another the in java ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how can this swingworker code be made testable <eos> 
+
+how to i swingworker ? ? fixed my <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how do i stop all handlers running in the background ? <eos> 
+
+how to i use a the running in the play ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to add result to resultset of a mysql stored procedure in java <eos> 
+
+how to get a from a and a string <eos> in in java <eos> 
+6 ----------------------------------------------------------------------------------------------------
+title of the last tab in my viewpager doesn t show <eos> 
+
+how of the viewpager viewpager in my app - t show up 
+7 ----------------------------------------------------------------------------------------------------
+how to extract all string from all java files in a java project ? <eos> 
+
+how to create a the from a classes class in java java class <eos> <eos> 
+8 ----------------------------------------------------------------------------------------------------
+where do i get resource id of fragment container ? <eos> 
+
+how to i use the of of fragment in ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how can i merge 2 arrays ? <eos> 
+
+how to i split the arrays ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how deal with spaces / tabs in txt files <eos> 
+
+how to with a in deserialize on java in <eos> 
+11 ----------------------------------------------------------------------------------------------------
+why does add ( component ) in a loop not work ? <eos> 
+
+how does java ( method ) in java method ? work ? <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to use nio to write inputstream to file ? <eos> 
+
+how to read file to inputstream to to file ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to change button background colour without changing onclick / onpress colors <eos> 
+
+how to set the to to in a is . android 7 <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to assign an object of a class to a value <eos> 
+
+how to get an array that a class in a given <eos> 
+15 ----------------------------------------------------------------------------------------------------
+what is the c # equivalent of calendar in java ? <eos> 
+
+how is the best # equivalent of java . java <eos> <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to check threads timing ? <eos> 
+
+how to get if on on <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  19
+19 / 93 batches have been processed, average cost until now: cost = 23.854271637765986 , cost_c = 1.0 , time: 54.37787318229675
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 24.11806829352128 , cost_c = 1.0 , time: 112.13823008537292
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 24.390180788542096 , cost_c = 1.0 , time: 168.3710880279541
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 24.71651938087062 , cost_c = 1.0 , time: 224.96639919281006
+save model... 
+finished
+in this epoch, total average cost = 24.914927109428074 , cost_c = 1.0 , time: 274.61842131614685
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+retrieve data from arraylist of hash map show null always in android <eos> 
+
+how data from the of hashmap list , <eos> <eos> <eos> android <eos> 
+2 ----------------------------------------------------------------------------------------------------
+why two same strings not matched under if condition .? <eos> 
+
+how is k method not getting in the condition ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+why res . add ( new arraylist <>( list )); here ? <eos> 
+
+how is . add () list arraylist ) ) <eos> <eos> ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to convert python socket to java ? for tello dji drone <eos> 
+
+how to get a to to a . <eos> socket maps <eos> <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to use apache avro genericrecord for dynamic data ? <eos> 
+
+how to set genericrecord genericrecord genericrecord for a - <eos> <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how do i compare 2 arraylists in a hashmap ? <eos> 
+
+how to i get the arraylists in a hashmap <eos> <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how do i update a collection in hibernate ? <eos> 
+
+how to i get the method ? hibernate <eos> <eos> 
+8 ----------------------------------------------------------------------------------------------------
+jbutton prints multiple times instead of once . why ? <eos> 
+
+how show a 0 <eos> of the . 0 ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to exit from the accept method of serversocket ? <eos> 
+
+how to get from a thread the of a <eos> <eos> 
+10 ----------------------------------------------------------------------------------------------------
+why optional continue saying that my list in empty ? <eos> 
+
+how is / saying for the method in java ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how do i use an int in an if - then statement in android <eos> 
+
+how to i use a object in an object statement then user work a ? 
+12 ----------------------------------------------------------------------------------------------------
+how to get matching elements from multiple tree sets into one ? <eos> 
+
+how to get the values from a layout ? ? a table <eos> 
+13 ----------------------------------------------------------------------------------------------------
+why is my program not running ? please check <eos> 
+
+how is the java not display to <eos> show <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to encrypt a message with an encryption key <eos> 
+
+how to get / method with a character key ? 
+15 ----------------------------------------------------------------------------------------------------
+how to replace two characters in a string with replace / regex ? <eos> 
+
+how to get a different in a string with different / regex <eos> <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to get integer value from mongodb bson document using java ? <eos> 
+
+how to get a from from a ? double ? java ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  20
+19 / 93 batches have been processed, average cost until now: cost = 21.793862393027858 , cost_c = 1.0 , time: 56.711869955062866
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 22.548024930452044 , cost_c = 1.0 , time: 111.03404688835144
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 22.950399967662076 , cost_c = 1.0 , time: 167.5868456363678
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 23.136645317077637 , cost_c = 1.0 , time: 222.73204469680786
+save model... 
+finished
+in this epoch, total average cost = 23.284356718477994 , cost_c = 1.0 , time: 270.4994809627533
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+applet not running : stanford engineering everywhere hangman <eos> 
+
+how hangman showing hangman hangman error error hangman <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to check if a jtextfield is empty ? <eos> 
+
+how to create if a jlabel is a ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how does optimization of final references work in java ? <eos> 
+
+why to windows of windows result work in java ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how can i avoid using more than a single break statement in a loop ? <eos> 
+
+how to i use using map than a loop loop statement ? the loop ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+jfreechart : how to get the individual items in a boxandwhiskerchart <eos> 
+
+how : how to get the map items from the map <eos> 
+6 ----------------------------------------------------------------------------------------------------
+why does linkedblockingqueue . take () block even if there are elements ? <eos> 
+
+how does take . take () shows in if there are there ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+inner class have access to private final methods in base class but why ? <eos> 
+
+what class - not to class class methods ? java class <eos> not ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how set base package to scan subpackages for actions ? <eos> 
+
+how to up package name run from for struts ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+java how to pass json object over a socket <eos> 
+
+how - to create a object into the socket in 
+10 ----------------------------------------------------------------------------------------------------
+how to assign and retrieve a unsigned long value to iobuffer <eos> 
+
+how to get a get signed iobuffer iobuffer value to iobuffer <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to transform a list into a map with kotlin <eos> 
+
+how to create a generic into a method with java ? 
+12 ----------------------------------------------------------------------------------------------------
+how import a . java file into a jsp page ? <eos> 
+
+how to up jsp jsp compiler works a jsp page ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to install apache ant on windows 7 <eos> 
+
+how to run apache ant on windows ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to generate a big number of unique random numbers in mysql <eos> 
+
+how to upload a file number from a elements object in java using 
+15 ----------------------------------------------------------------------------------------------------
+how to search for a pattern in a sequence of chars ? <eos> 
+
+why to search for a string in java string of a ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how do i make the simplest java program with one method ? <eos> 
+
+how to i print this order java program ? the ? ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  21
+19 / 93 batches have been processed, average cost until now: cost = 20.387468538786237 , cost_c = 1.0 , time: 55.29337167739868
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 20.69748998943128 , cost_c = 1.0 , time: 111.53858637809753
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 21.049438409637986 , cost_c = 1.0 , time: 167.51378321647644
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 21.394658189070853 , cost_c = 1.0 , time: 223.8987591266632
+save model... 
+finished
+in this epoch, total average cost = 21.642396014669668 , cost_c = 1.0 , time: 272.46421217918396
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to know if an edittext has changed before save the data ? <eos> 
+
+how to get the a item has been before the the edittext in <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to compile java to native using graalvm ( substratevm ) in eclipse <eos> 
+
+how to resolve a . graalvm using graalvm ( java ) in graalvm <eos> 
+3 ----------------------------------------------------------------------------------------------------
+appium - how to set geo location on ios device ? <eos> 
+
+appium - how to set ios location on appium device ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+what causes java version random walk doesn t converge to expected value ? <eos> 
+
+how is the version in random doesn t work to my value ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+junit : how to check if a method calls another method ? <eos> 
+
+how how how to create mock mock mock is another method <eos> <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to perform complex operations ( loops ) within a buffered reader ? <eos> 
+
+how to get complex while ( while ) while a movies movies ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how can i send value from onpostexecute () to activity <eos> 
+
+how to i pass a from onpostexecute () to onpostexecute <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to fix the runtime error : java . lang . arrayindexoutofboundsexception : 0 <eos> 
+
+how to compare 2 output error about java . lang . filenotfoundexception : 0 <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to deal with radiobutton onclick listener <eos> 
+
+how to radiobutton with radiobutton () method <eos> 
+10 ----------------------------------------------------------------------------------------------------
+xstream : how to let xstream . createobjectinputstream () seek to a particular element <eos> 
+
+xstream : how to create xstream . createobjectinputstream () works to xstream xstream createobjectinputstream <eos> 
+11 ----------------------------------------------------------------------------------------------------
+processing : how to check if json objects are bound <eos> 
+
+how : how to get if json values are already <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to calculate the downloaded file size and total data to be downloaded <eos> 
+
+how to get the socket file in and socket value in a downloaded from 
+13 ----------------------------------------------------------------------------------------------------
+how to create a cyclic exchange of three threads ? <eos> 
+
+how to create a list exchange of a threads in <eos> 
+14 ----------------------------------------------------------------------------------------------------
+title of the last tab in my viewpager doesn t show <eos> 
+
+show of the last viewpager in my viewpager doesn t show the 
+15 ----------------------------------------------------------------------------------------------------
+how to get the height of the entered text in a jtextpane ? <eos> 
+
+how to get the jtextpane of a jtextpane text in a jtextpane ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to generate start and end time using calendar ? <eos> 
+
+how to gregoriancalendar a and write using using gregoriancalendar in <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  22
+19 / 93 batches have been processed, average cost until now: cost = 18.90687330145585 , cost_c = 1.0 , time: 55.03693771362305
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 19.245362432379473 , cost_c = 1.0 , time: 112.79100465774536
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 19.528708374291135 , cost_c = 1.0 , time: 170.454416513443
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 19.812183229546797 , cost_c = 1.0 , time: 226.33173751831055
+save model... 
+finished
+in this epoch, total average cost = 19.95475319157476 , cost_c = 1.0 , time: 273.7844383716583
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to gzip file in place replacement java <eos> 
+
+how to add file in java replacement java <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to send multiple checkbox values to firebase database when a button is clicked android <eos> 
+
+how to set data values values from firebase text when a button is clicked <eos> <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to solve nullpointer exception in testng with dependsongroups <eos> 
+
+how to add dependsongroups exception in dependsongroups with dependsongroups <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to update value of searchview and textview of mainacitivity from java class <eos> 
+
+how to use the of searchview and onclick of searchview from java ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+getting stackoverflow error and why ? <eos> 
+
+how optionaldataexception error and how ? <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to get value from text tag which is inside svg tag in selenium java <eos> 
+
+how to xpath xpath of xpath field which is inside the in using java webdriver <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to ask user to play again . guess game <eos> 
+
+how to use user to find a . 3 game <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how can i merge 2 arrays ? <eos> 
+
+how to i make 2 arrays <eos> <eos> 
+9 ----------------------------------------------------------------------------------------------------
+why the arraydeque class use bitwise operation in the pollfirst method ? <eos> 
+
+how is head class is bitwise operation in the pollfirst method ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to fix with array outofboundsexception ? <eos> 
+
+how to find this array of ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to find the top 10 most viewed movies with their movie name in mapreduce <eos> 
+
+how to add the hadoop movies most viewed mapper with hadoop movie name in hadoop <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to reduce character from given string until it becomes to palindrome in java <eos> 
+
+how to palindrome the from given string <eos> it becomes to palindrome using java <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how do i resize objects in my program ? <eos> 
+
+how to i add a ? java program <eos> <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how import a . java file into a jsp page ? <eos> 
+
+how to a reference jsp file in a jsp <eos> ? <eos> 
+15 ----------------------------------------------------------------------------------------------------
+csp & ssl inline javascript & how to reference externally <eos> 
+
+how & font showing ssl <eos> how to set externally <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to return many html files together in java servlet response ? <eos> 
+
+how to while while response files in in java <eos> ? <eos> <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  23
+19 / 93 batches have been processed, average cost until now: cost = 17.322382675973994 , cost_c = 1.0 , time: 56.72958254814148
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 17.612356587460166 , cost_c = 1.0 , time: 113.78103804588318
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 17.97976393448679 , cost_c = 1.0 , time: 169.69689321517944
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 18.160595617796247 , cost_c = 1.0 , time: 225.8263759613037
+save model... 
+finished
+in this epoch, total average cost = 18.27394321690435 , cost_c = 1.0 , time: 275.614887714386
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to find permutations for string arrays excluding own array ? <eos> 
+
+how to make the for array array to arraylist array ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+sending integer across activity showing 0 <eos> 
+
+how integer shows activity class 0 <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how can i use getter and setter using class library in android <eos> 
+
+how to i use a and setter ? recyclerview query in java <eos> 
+4 ----------------------------------------------------------------------------------------------------
+my java graphics . drawimage () doesn t show the image passed to it <eos> 
+
+how drawimage , not drawimage () shows t show the image passed to it ? 
+5 ----------------------------------------------------------------------------------------------------
+how to fill a 2d array with different types of variables in java <eos> 
+
+how to convert a 2d array in different numbers of a ? java ? 
+6 ----------------------------------------------------------------------------------------------------
+where to store morphlines java custom command class ? <eos> 
+
+how is put a java objects map line ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to create text file through user - defined path <eos> 
+
+how to get a file from java is 8 file <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to map collections of immutable objects in dozer <eos> 
+
+how to make an of list objects in spring <eos> 
+9 ----------------------------------------------------------------------------------------------------
+why am i still getting an error of numberformatexception ? <eos> 
+
+how does i getting getting an giveitem variable giveitem ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to get and store multiple genrated edittext value in android ? <eos> 
+
+how to get the get of genrated edittext value in java <eos> <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how can i convert bitmap to string , string to bitmap in kotlin <eos> 
+
+how to i get a to the , over in bitmap <eos> android <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to instantiate spring managed beans at runtime ? <eos> 
+
+how to make managed managed beans that runtime ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to add phrase as a stopword while using lucene analyzer ? <eos> 
+
+how to make a as a stopword while using an <eos> ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to use switch and enum parameters ( not enum value ) in java ? <eos> 
+
+how to get value and enum as ( enum enum ) ) in java ? <eos> 
+15 ----------------------------------------------------------------------------------------------------
+what s the name of this construction ? <eos> 
+
+how is the data of my construction ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to create a pdf file from html using pdfbox ? <eos> 
+
+how to save a notification file from java using pdfbox ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  24
+19 / 93 batches have been processed, average cost until now: cost = 15.731131051716051 , cost_c = 1.0 , time: 55.4196298122406
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 15.931967534516987 , cost_c = 1.0 , time: 111.06129026412964
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 16.233878838388545 , cost_c = 1.0 , time: 169.5328164100647
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 16.493493795394897 , cost_c = 1.0 , time: 225.4831829071045
+save model... 
+finished
+in this epoch, total average cost = 16.740728170975395 , cost_c = 1.0 , time: 273.9521598815918
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+connect to bluetooth device working on marshmallow device but not oreo device , why ? <eos> 
+
+how to bluetooth device doesn on marshmallow device but not oreo device , why ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how can i save to shredpreferences if arraylist is null ? <eos> 
+
+how to i save a sharedpreferences if cell is null ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to set a different location for my panes ? <eos> 
+
+how to change up javafx cursor javafx a panes ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to fix with array outofboundsexception ? <eos> 
+
+how to find an array of ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to sort a jtable with null values always at the end <eos> 
+
+how to add a jtable row a or from in the same <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to extends entity class for xml using jaxb and jersey <eos> 
+
+how to send spring class in a with spring and jersey <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to delete firebase data after n days <eos> 
+
+how to make a data in using days in 
+8 ----------------------------------------------------------------------------------------------------
+java : spring : how to transfer beans from one classpathxmlapplicationcontext to another ? <eos> 
+
+how - how : how to to beans from other classpathxmlapplicationcontext to another ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to create an object with private creator ( like eglcontext ) under pie ? <eos> 
+
+how to create an object that private private ( android private ) <eos> pie ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to use retrofit as a singleton while using gson convertor ? <eos> 
+
+how to use redirect as a class while using gson convertor ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to inspect the http request headers sent through a httpsurlconnection ? <eos> 
+
+how to send the downloaded request headers to and an httpsurlconnection ? <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to minimize , maximize and restore down through buttons in java ? <eos> 
+
+how to show , maximize and restore down in buttons in java <eos> <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to get text from jtextarea ? <eos> 
+
+how to use a from jtextarea ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to make a get request in liferay <eos> 
+
+how to use a spring request in grails <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how i can get data from table by date <eos> 
+
+how to can get a from date by date in 
+16 ----------------------------------------------------------------------------------------------------
+how to solve itemtag cannot be resolved or is not a field ? <eos> 
+
+how to use itemtag cannot be resolved , - not have field ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  25
+19 / 93 batches have been processed, average cost until now: cost = 14.157377393622147 , cost_c = 1.0 , time: 56.41631293296814
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 14.44110790051912 , cost_c = 1.0 , time: 112.38547801971436
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 14.653057282431083 , cost_c = 1.0 , time: 169.41304755210876
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 14.966290850388376 , cost_c = 1.0 , time: 225.62006497383118
+save model... 
+finished
+in this epoch, total average cost = 15.17232290558193 , cost_c = 1.0 , time: 273.87564611434937
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+i am not getting how to set the request for xml in wsdl service call <eos> 
+
+how am not getting how to set the wsdl for xml in java service <eos> <eos> 
+2 ----------------------------------------------------------------------------------------------------
+showing jdialog on taskbar does not look good <eos> 
+
+showing jdialog on taskbar does not work good <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to get group of contacts list from phone contacts <eos> 
+
+how to get current on contacts list <eos> phone gallery <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to extract expression path and value from spring query dsl predicate ? <eos> 
+
+how to get a in and response from a query using expression ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+why this java lambda expression parameter has an error ? <eos> 
+
+how this java lambda expression in has an error ? <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to upload a excel file by using spring mvc ? <eos> 
+
+how to filter a file file by using apache boot ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to run two instances of java socket servers listenening on two different ports ? <eos> 
+
+why to implement a instances of . and to listenening on the different ports ? <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how can i delete a bucket in google cloud platform from java ? <eos> 
+
+how to i get a bucket in google cloud platform from java ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+servlet response headers only showing in 304 responses - tomcat 7 <eos> 
+
+how to to - : in jaxb tomcat - tomcat 7 <eos> 
+10 ----------------------------------------------------------------------------------------------------
+what is the best implementation of a state toggle in java ? <eos> 
+
+how is the best way of java state reference in java ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to build cascade controller ? <eos> 
+
+how to set cascade controller <eos> <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to connect a java application to db4free . net using jdbc ? <eos> 
+
+how to call a java program with a . net using jdbc ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+why does my cardlayout give wrong parent for cardlayout ? <eos> 
+
+why does cardlayout cardlayout give wrong time for cardlayout ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to get multiple values from sharedpreferences on android ? <eos> 
+
+how to get cell values for a on android ? <eos> 
+15 ----------------------------------------------------------------------------------------------------
+java - android how to convert letters in a string to specified number <eos> 
+
+how - how how to get a in a string to another number <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to get beans created by factorybean spring managed ? <eos> 
+
+how to get a from by factorybean spring managed ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  26
+19 / 93 batches have been processed, average cost until now: cost = 13.007766623246042 , cost_c = 1.0 , time: 54.405407428741455
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 13.201073621448717 , cost_c = 1.0 , time: 110.88838911056519
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 13.480080152812757 , cost_c = 1.0 , time: 169.56814527511597
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 13.533138237501445 , cost_c = 1.0 , time: 226.1281383037567
+save model... 
+finished
+in this epoch, total average cost = 13.751116244689278 , cost_c = 1.0 , time: 273.8038401603699
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+text doesn t show up as it has to ! ( string ) <eos> 
+
+sharedpreferences - t show up <eos> my <eos> to ! ( android ) <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how do i deal with checked exceptions in lambda ? <eos> 
+
+how to i use with mail ? in an ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how come the result in the below two cases is different ? <eos> 
+
+how to the string of the below two set is different ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to enable strict_stubs while using mockito . mock () <eos> 
+
+how to use strict_stubs while using mockito . mockito () <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to create text file through user - defined path <eos> 
+
+how to make a file from user defined defined file <eos> 
+6 ----------------------------------------------------------------------------------------------------
+java - how to set rollback function on inserting records to table ? <eos> 
+
+how - how to get a function on a records ? table ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to wait in the thread until it receives connect callback from google api client <eos> 
+
+how to get in the thread until it receives connect callback from java service list <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to save a file to any specific path in android <eos> 
+
+how to set file string from save specific path <eos> android <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to obtain databse url etc without the heroku cli <eos> 
+
+how to setup databse url by after converting heroku cli <eos> 
+10 ----------------------------------------------------------------------------------------------------
+why is java updating multiple variables with the same value ? <eos> 
+
+why is my updating multiple variables with error same type ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to delete a drawn string in jframe <eos> 
+
+how to use a text string in a <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how can i read the content of a . pfx file in java ? <eos> 
+
+how to i get the file of the pfx pfx file in java ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to parse list < map > in android ? <eos> 
+
+how to set list < map > in java ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+why am i catching the exception <eos> 
+
+how am i getting the exception <eos> 
+15 ----------------------------------------------------------------------------------------------------
+why can t stream . flatmap accept a collection ? <eos> 
+
+why is t i . flatmap accept my collection ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to solve itemtag cannot be resolved or is not a field ? <eos> 
+
+how to create itemtag cannot be resolved or is already / field ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  27
+19 / 93 batches have been processed, average cost until now: cost = 11.759187748557643 , cost_c = 1.0 , time: 56.46542954444885
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 11.939671240354839 , cost_c = 1.0 , time: 112.69891881942749
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 12.13893273002223 , cost_c = 1.0 , time: 169.32422137260437
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 12.266860961914062 , cost_c = 1.0 , time: 227.75288271903992
+save model... 
+finished
+in this epoch, total average cost = 12.408925740615182 , cost_c = 1.0 , time: 275.1080298423767
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to undraw an image ? <eos> 
+
+how to get an image ? <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to write a recursive while loop for arimethic calculation java parser <eos> 
+
+how to write / while function loop using arimethic calculation java api ? 
+3 ----------------------------------------------------------------------------------------------------
+how to set up bidirectional association between two objects in oo java <eos> 
+
+how to create values bidirectional association between two objects in java java <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how can i copy lines from a text file into a jcombobox ? <eos> 
+
+how to i use images in a text file into a jcombobox ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+eclipse shows errors at project but i can t find them <eos> 
+
+how shows errors of project but i don t ? <eos> <eos> 
+6 ----------------------------------------------------------------------------------------------------
+i am not getting how to set the request for xml in wsdl service call <eos> 
+
+how do not getting how to set the wsdl for xml ? wsdl service ? ? 
+7 ----------------------------------------------------------------------------------------------------
+how to load configurationproperties on external class ? <eos> 
+
+how to add configurationproperties on configurationproperties class <eos> <eos> 
+8 ----------------------------------------------------------------------------------------------------
+why can t enum s constructor access static fields ? <eos> 
+
+how is t i s map access day fields ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+how to check if three user - input words in a string are identical ? <eos> 
+
+how to count if an - is else is in a string array identical ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+rhino : how to protect object fields from being modified ? <eos> 
+
+how : how to make object of from repeating modified ? <eos> 
+11 ----------------------------------------------------------------------------------------------------
+java linux how to move mouse cursor <eos> 
+
+how how how to move mouse cursor <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how can i limit a method to only accept parameters with certain restrictions ? <eos> 
+
+how to i use a method of a accept or with different number ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to return a generic map from a method in java <eos> 
+
+how to create a interface map with a list <eos> java ? 
+14 ----------------------------------------------------------------------------------------------------
+how to close a jframe in the middle of a program <eos> 
+
+how to check the jframe in the middle of a decimalformat ? 
+15 ----------------------------------------------------------------------------------------------------
+why the arraydeque class use bitwise operation in the pollfirst method ? <eos> 
+
+why the pollfirst class is bitwise operation in the pollfirst method ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how can i load my yaml file into a case class ? <eos> 
+
+how to i traverse a yaml file into a case class ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  28
+19 / 93 batches have been processed, average cost until now: cost = 10.35366836347078 , cost_c = 1.0 , time: 54.36183714866638
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 10.474013805389404 , cost_c = 1.0 , time: 110.10807037353516
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 10.772821175424676 , cost_c = 1.0 , time: 167.37810134887695
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 10.97324864487899 , cost_c = 1.0 , time: 224.23945593833923
+save model... 
+finished
+in this epoch, total average cost = 11.101887485255366 , cost_c = 1.0 , time: 272.05124044418335
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+custom dialog class does t show the dialog <eos> 
+
+how dialog class is t show the layout <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how can i get access to a private array using java reflection ? <eos> 
+
+how to i use the to a private array using java reflection ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+why won t this create multiple sets of random numbers ? <eos> 
+
+why does t my create random sets of random numbers ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+jbutton prints multiple times instead of once . why ? <eos> 
+
+how prints multiple times instead of once . how ? <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to launch mysqldump . exe in java independently on mysqldump . exe location ? <eos> 
+
+how to restrict mysqldump . exe in java independently on mysqldump . exe location ? <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to set properly gridview ? <eos> 
+
+how to hide onclick gridview ? <eos> 
+7 ----------------------------------------------------------------------------------------------------
+how to show coordinates - markers on android app with google maps from xml file <eos> 
+
+how to get coordinates - markers on android app with google maps from xml file <eos> 
+8 ----------------------------------------------------------------------------------------------------
+how to load configurationproperties on external class ? <eos> 
+
+how to add selected on external class ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+oop the other method if is not working why ? <eos> 
+
+how the other method if - not working why ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+spring : how to get values from properties file in model class <eos> 
+
+how : how to get objects with properties file in model class <eos> 
+11 ----------------------------------------------------------------------------------------------------
+sqlite data set fetch with where in list condition <eos> 
+
+how data hibernate fetch with where in other <eos> <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to get jtabbedpane in jsplitpane to fill the whole window ? <eos> 
+
+how to display jtabbedpane in jsplitpane to fill the whole window ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how do i retrieve an image from the cursor in android ? getimageview ? <eos> 
+
+how to i create an image from the cursor in android ? <eos> ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how to manage a organization chart according to employee role using google orgchart ? <eos> 
+
+how to display java organization chart according to employee role using google orgchart ? <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to configure kafka connect sink connector for exasol databse <eos> 
+
+how to send kafka connect sink connector for exasol databse <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how to transform a list into a map with kotlin <eos> 
+
+how to retrieve a index into a map with kotlin <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+epoch:  29
+19 / 93 batches have been processed, average cost until now: cost = 8.950803254780016 , cost_c = 1.0 , time: 55.342326641082764
+save model... 
+finished
+38 / 93 batches have been processed, average cost until now: cost = 9.29869872645328 , cost_c = 1.0 , time: 112.22927474975586
+save model... 
+finished
+57 / 93 batches have been processed, average cost until now: cost = 9.573496450457657 , cost_c = 1.0 , time: 169.1160876750946
+save model... 
+finished
+76 / 93 batches have been processed, average cost until now: cost = 9.802324395430716 , cost_c = 1.0 , time: 228.17270064353943
+save model... 
+finished
+in this epoch, total average cost = 9.925786899483722 , cost_c = 1.0 , time: 276.0913882255554
+golden truth and prediction samples:
+1 ----------------------------------------------------------------------------------------------------
+how to automatically update server and client side in java <eos> 
+
+how to write update server for client side in java <eos> 
+2 ----------------------------------------------------------------------------------------------------
+how to setup htmlunit in an eclipse project ? <eos> 
+
+how to import htmlunit in jsf intellij project ? <eos> 
+3 ----------------------------------------------------------------------------------------------------
+how to populate a 2d array in java using user input ? <eos> 
+
+how to split a 2d array in java ? an input ? <eos> 
+4 ----------------------------------------------------------------------------------------------------
+how to get where is my finger , over of which layout ? <eos> 
+
+how to get the is a finger , over which a layout <eos> <eos> 
+5 ----------------------------------------------------------------------------------------------------
+how to unhide / call a jframe class with two parameter <eos> 
+
+how to call / call a method class with two parameter <eos> 
+6 ----------------------------------------------------------------------------------------------------
+how to extract ip addresses from a single long string in java <eos> 
+
+how to stop all addresses from a single long ? <eos> java <eos> 
+7 ----------------------------------------------------------------------------------------------------
+what is needed to create a jailed environment for scala <eos> 
+
+how is the to create a message environment for scala <eos> 
+8 ----------------------------------------------------------------------------------------------------
+can i limit which classes can implement an interface ? <eos> 
+
+can i set android of can implement an interface ? <eos> 
+9 ----------------------------------------------------------------------------------------------------
+oop the other method if is not working why ? <eos> 
+
+how the other method for is not working why ? <eos> 
+10 ----------------------------------------------------------------------------------------------------
+how to add grouping and dependency in beforemethod on testng <eos> 
+
+how to add grouping and and in beforemethod on testng <eos> 
+11 ----------------------------------------------------------------------------------------------------
+how to work with dependent fields in spring 3 . 0 ? <eos> 
+
+what to use with dependent fields in spring 4 . 0 ? <eos> 
+12 ----------------------------------------------------------------------------------------------------
+how to find duplicate contacts in list view <eos> 
+
+how to add the contacts in list ? <eos> 
+13 ----------------------------------------------------------------------------------------------------
+how to sort a file by grade ? <eos> 
+
+how to delete a grade by grade ? <eos> 
+14 ----------------------------------------------------------------------------------------------------
+how should i write jpa code for creating join multiple tables ? <eos> 
+
+how to i write jpa code for creating join multiple tables ? <eos> 
+15 ----------------------------------------------------------------------------------------------------
+how to properly generate a form action for a post request ? <eos> 
+
+how to write include a form action for a form request ? <eos> 
+16 ----------------------------------------------------------------------------------------------------
+how do i implement a custom jsondeserialize method on an endpoint class ? <eos> 
+
+how to i do a custom jsonmappingexception method on an jsonmappingexception class ? <eos> 
+----------------------------------------------------------------------------------------------------
+
+save model... 
+finished
+save final model... 
+finished
+Finished, time: 8256.902592897415
